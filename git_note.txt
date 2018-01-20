@@ -23,3 +23,5 @@ git remote add origin https://github.com/YoungLou1995/learngit.git
 关联后，使用命令git push -u origin master第一次推送master分支的所有内容；
 此后，可以使用git push origin master推送最新修改;
 ########################################################################################
+
+要克隆一个仓库，首要要知道仓库的地址，然后使用git clone　．．．．命令克隆
