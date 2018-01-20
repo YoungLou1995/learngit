@@ -7,7 +7,9 @@ HEAD指向的版本就是当前版本，因此，Git允许我们在版本的历�
 穿梭前，用git log查看提交历史，以确定回退到哪个版本
 要重返未来，用git reflog查看命令历史，以便确定要回到未来的哪个版本
 
-丢弃工作区的修改:git checkout -- file
+丢弃工作区的修改:git checkout -- file(用版本库里的版本替换工作区版本)
 丢弃暂存区的修改:git reset HEAD file; git checkout -- file
 已经提交到了版本库中:git reset --hard HEAD^
+
+命令git rm 用于删除一个文件，如果一个文件已经被提交到版本库，那么可以恢复，但是只能恢复文件到最新版本，会丢失最近一次提交后修改的所有内容
 
